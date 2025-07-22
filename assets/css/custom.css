@@ -1,0 +1,27 @@
+img.flag {
+    width: 25px !important;
+    height: 25px;
+}
+
+img.profile{
+    width: 120px;
+    height: 120px;
+}
+
+img.subjectlogo{
+    width: 50px;
+    height: 45px;
+}
+
+.skillBadge{
+    border: 2px solid #2F6542;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #2F6542;
+    font-size: 14px;
+}
+
+ul.expDesc li {
+    font-size: 14px;
+}
+

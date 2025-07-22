@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title> Julia </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="sitename">Julia</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#">
+                            <img src="assets/img/flag/us.png" class="w-25 flag me-2" alt=""> 
+                            English
+                            <i class="bi bi-chevron-down toggle-dropdown"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/flag/mm.png" class="img-fluid w-25 flag me-2" alt=""> 
+                                    Burmese
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/flag/de.png" class="img-fluid w-25 flag me-2" alt=""> 
+                                    German
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li> -->
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <div class="header-social-links">
+                <a href="https://github.com/yathaw" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.facebook.com/yathawmyatnoe.007" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/yathawmyatnoe/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yathaw/" target="_blank"  ><i class="bi bi-linkedin"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/profile.png" class="img-fluid mb-4 profile"> 
+                        <h2><span class="underlight mb-2">Julia</span> </h2>
+                        <p>I'm a design-minded application developer. Currently working Project Manager, I’m responsible for the planning, procurement, and execution of different kinds of projects.</p>
+                        <a href="#about" class="btn-get-started"> View Resume </a>
+                        <!-- <a href="#about" class="btn btn-outline-light ms-2 rounded-pill px-5 py-2"> Get In Touch </a> -->
+
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- Subjects Section -->
+        <section id="clients" class="clients section">
+
+            <div class="container">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            },
+                            "breakpoints": {
+                                "320": {
+                                    "slidesPerView": 2,
+                                    "spaceBetween": 40
+                                },
+                                "480": {
+                                    "slidesPerView": 3,
+                                    "spaceBetween": 60
+                                },
+                                "640": {
+                                    "slidesPerView": 4,
+                                    "spaceBetween": 80
+                                },
+                                "992": {
+                                    "slidesPerView": 6,
+                                    "spaceBetween": 120
+                                }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Jira</b><br><small>Agile project management and issue tracking tool</small>"> 
+                            <img src="assets/img/subjects/jira.svg" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Figma</b><br><small>Design tool for creating and collaborating</small>">
+                            <img src="assets/img/subjects/figma.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Laravel</b><br><small>PHP framework for modern web applications</small>"> 
+                            <img src="assets/img/subjects/Laravel.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Notion</b><br><small>Wiki, docs and projects management system</small>" >
+                            <img src="assets/img/subjects/notion.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Miro</b><br><small>Online collaborative whiteboard platform</small>">
+                            <img src="assets/img/subjects/miro.webp" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>PHP</b><br><small>Server-side scripting language for web development</small>">
+                            <img src="assets/img/subjects/php.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+                        
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Confluence</b><br><small>Team collaboration and documentation workspace</small>">
+                            <img src="assets/img/subjects/confluence.webp" class="img-fluid subjectlogo" alt="">
+                        </div>
+                        
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>JavaScript</b><br><small>Client-side scripting language for interactive websites</small>">
+                            <img src="assets/img/subjects/js.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+                        
+                        <div class="swiper-slide"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>jQuery</b><br><small>Lightweight JavaScript library for DOM manipulation</small>">
+                            <img src="assets/img/subjects/jq.webp" class="img-fluid subjectlogo" alt="">
+                        </div>
+                        
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>HTML</b><br><small>Markup language for building web page structure</small>">
+                            <img src="assets/img/subjects/html.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+                        
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>CSS</b><br><small>Stylesheet language for designing web pages</small>">
+                            <img src="assets/img/subjects/css-3.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                        <div class="swiper-slide" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-html="true" data-bs-title="<b>Bootstrap</b><br><small>Front-end framework for responsive design</small>">
+                            <img src="assets/img/subjects/bootstrap.png" class="img-fluid subjectlogo" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Subjects Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about skills section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p> Get to Know My Professional Journey </p>
+            </div><!-- End Section Title -->
+
+            <div class="container content about-content">
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-8">
+
+                        <h3>Web Developer | UI/UX Designer | Project Manager</h3>
+                        <p>
+                            I love turning ideas into clean, user-friendly digital experiences—whether I’m designing, coding, or leading a project. I believe good teamwork, clear communication, and smart planning make great results.
+                        </p>
+
+                        <div class="skills-grid">
+                            <!-- UI/UX Design -->
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="skill-icon">
+                                    <i class="bi bi-palette"></i>
+                                </div>
+                                <h4>UI/UX Design</h4>
+                                <p>Creating user-friendly, modern, and responsive designs.</p>
+                            </div>
+
+                            <!-- Web Development -->
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                                <div class="skill-icon">
+                                    <i class="bi bi-code-slash"></i>
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>Building responsive websites with clean, efficient code.</p>
+                            </div>
+
+                            <!-- Project Management -->
+                            <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                                <div class="skill-icon">
+                                    <i class="bi bi-file-bar-graph"></i>
+                                </div>
+                                <h4>Project Management</h4>
+                                <p>Leading teams and delivering projects on time.</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
+                            <div class="timeline-item">
+                                <div class="year">2022</div>
+                                <div class="description">Graduated with B.Sc (Hons) in Computing from CUniversity of Greenwich ( UK ) </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="year">2018</div>
+                                <div class="description">Joined Myanmar IT Consulting as Junior Developer</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="year">2025</div>
+                                <div class="description"> Upgrated Project Manager in BIM Group of Companies </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4">
+                        <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
+                            <h3>Professional Expertise</h3>
+                            <p>I specialize in delivering user-focused digital solutions by blending project leadership, design thinking, and full-stack development. With a strong track record of managing cross-functional teams and building scalable platforms, I turn complex ideas into functional, elegant products.</p>
+
+                            <div class="summary-stats">
+                                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="stat-circle">
+                                        <i class="bi bi-trophy"></i>
+                                    </div>
+                                    <div class="stat-info">
+                                        <span class="stat-number">5+</span>
+                                        <span class="stat-label">Years Experience</span>
+                                    </div>
+                                </div>
+
+                                <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="stat-circle">
+                                        <i class="bi bi-diagram-3"></i>
+                                    </div>
+                                    <div class="stat-info">
+                                        <span class="stat-number">30+</span>
+                                        <span class="stat-label">Projects Completed</span>
+                                    </div>
+                                </div>
+
+                                <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
+                                    <div class="stat-circle">
+                                        <i class="bi bi-people"></i>
+                                    </div>
+                                    <div class="stat-info">
+                                        <span class="stat-number">20+</span>
+                                        <span class="stat-label">Happy Clients</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-badges" data-aos="fade-up" data-aos-delay="600">
+                                <h4>Certifications</h4>
+                                <div class="badge-list">
+                                    <div class="skill-badge">Google UX Design</div>
+                                    <div class="skill-badge">Laravel Expert</div>
+                                    <div class="skill-badge">Google Project Management</div>
+                                    <div class="skill-badge">UI/UX Design</div>
+                                </div>
+                            </div>
+                        </div><!-- End Skills Summary -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- /About Section -->
+
+        <!-- Skill Section -->
+        <section id="skill" class="skills section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Skills</h2>
+                <p> Tools and Technologies I Use to Get Things Done </p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+                    <div class="col-lg-12">
+                        <div class="skills-grid">
+                            <div class="row g-4">
+                                <!-- Project & Tools -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="500">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-kanban"></i>
+                                            <h3>Project & Tools</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">JIRA / Trello</span>
+                                                    <span class="skill-percentage">85%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Slack / Confluence</span>
+                                                    <span class="skill-percentage">80%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">MS Project</span>
+                                                    <span class="skill-percentage">70%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Soft Skills -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="700">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-people"></i>
+                                            <h3>Soft Skills</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Leadership</span>
+                                                    <span class="skill-percentage">92%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Communication</span>
+                                                    <span class="skill-percentage">88%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Time Management</span>
+                                                    <span class="skill-percentage">85%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- UI/UX Design -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-palette"></i>
+                                            <h3>UI/UX Design</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Figma</span>
+                                                    <span class="skill-percentage">85%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Adobe XD</span>
+                                                    <span class="skill-percentage">75%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Balsamiq / Miro</span>
+                                                    <span class="skill-percentage">70%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Frontend Development -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-code-slash"></i>
+                                            <h3>Frontend Development</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">HTML/CSS</span>
+                                                    <span class="skill-percentage">95%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">JavaScript</span>
+                                                    <span class="skill-percentage">88%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Bootstrap/jQuery</span>
+                                                    <span class="skill-percentage">85%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Backend Development -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-server"></i>
+                                            <h3>Backend Development</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">PHP</span>
+                                                    <span class="skill-percentage">88%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Laravel</span>
+                                                    <span class="skill-percentage">98%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">MySQL</span>
+                                                    <span class="skill-percentage">72%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Version Control -->
+                                <div class="col-xl-4 col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="600">
+                                    <div class="skill-card">
+                                        <div class="skill-header">
+                                            <i class="bi bi-git"></i>
+                                            <h3>Version Control</h3>
+                                        </div>
+                                        <div class="skills-animation">
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Git / GitHub</span>
+                                                    <span class="skill-percentage">90%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-info">
+                                                    <span class="skill-name">Bitbucket</span>
+                                                    <span class="skill-percentage">75%</span>
+                                                </div>
+                                                <div class="skill-bar progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section><!-- /Skill Section -->
+
+        <!-- Experience Section -->
+        <section id="experience" class="team section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Work Experience</h2>
+                <p> Related Work Experience </p>
+            </div><!-- End Section Title -->
+
+            <div class="container ">
+
+                <div class="row justify-content-center gy-4">
+
+                <!-- Assistant Project Manager -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="member-info">
+                            <h4>Assistant Project Manager <p class="d-inline"> at <a href="https://bimgoc.com"> BIM Group of Companies </a></p></h4>
+                            <span>Nov 2022 – Present</span>
+                            <p class="mb-3">Main Responsibilities:</p>
+                            <ul class="expDesc">
+                                <li>Oversaw the execution of multiple digital projects, including software platforms, websites, and mobile apps.</li>
+                                <li>Defined project scope and timelines; managed stakeholder expectations and scope adjustments.</li>
+                                <li>Facilitated regular status meetings, documented project milestones, and coordinated cross-functional teams.</li>
+                                <li>Ensured successful delivery through risk mitigation and active timeline management.</li>
+                            </ul>
+                            <p class="mb-3">Achievements:</p>
+                            <ul class="expDesc">
+                                <li>Launched 15+ digital products with reduced delivery time by 20%.</li>
+                                <li>Streamlined project reporting and improved internal communication efficiency by 30%.</li>
+                                <li>Enhanced post-launch outcomes by improving QA feedback cycles and stakeholder reviews.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Senior UI/UX Designer -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="member-info">
+                            <h4>Senior UI/UX Designer <p class="d-inline"> at <a href="https://www.escapepixel.com"> Escape Pixel </a></p></h4>
+                            <span>Feb 2022 – Oct 2023</span>
+                            <p class="mb-3">Main Responsibilities:</p>
+                            <ul class="expDesc">
+                                <li>Led UX design initiatives for web and mobile applications from concept to launch.</li>
+                                <li>Translated client goals and data insights into intuitive user flows and visual design systems.</li>
+                                <li>Created wireframes, interactive prototypes, and design systems using Figma and Adobe XD.</li>
+                                <li>Conducted usability testing and iterated designs based on user feedback.</li>
+                            </ul>
+                            <p class="mb-3">Achievements:</p>
+                            <ul class="expDesc">
+                                <li>Redesigned 10+ platforms, improving user retention by up to 35%.</li>
+                                <li>Reduced onboarding time by 40% with more intuitive UX flows.</li>
+                                <li>Established a reusable design system improving design consistency across teams.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Senior Consultant -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-member d-flex align-items-start">
+                        <div class="member-info">
+                            <h4>Senior Consultant <p class="d-inline"> at <a href="https://www.myanmaritc.com"> Myanmar IT Consulting </a></p></h4>
+                            <span>Feb 2017 – Dec 2019</span>
+                            <p class="mb-3">Main Responsibilities:</p>
+                            <ul class="expDesc">
+                                <li>Developed web solutions using HTML, CSS, and integrated backend systems.</li>
+                                <li>Collaborated with designers to implement visually accurate and user-friendly interfaces.</li>
+                                <li>Maintained, optimized, and scaled existing websites and web applications.</li>
+                                <li>Stayed current with tech trends and applied innovations to ongoing development work.</li>
+                            </ul>
+                            <p class="mb-3">Achievements:</p>
+                            <ul class="expDesc">
+                                <li>Delivered 10+ client projects across various industries with 40% performance improvements.</li>
+                                <li>Led junior developers in adopting Git and modern coding practices.</li>
+                                <li>Integrated CMS, payment, and multi-language features in large-scale projects.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+
+        </section><!-- /Experience Section -->
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Academic Excellence</h2>
+                    <p>Explore My Academic Achievements and Education Journey</p>
+                </div>
+
+                <div class="education-timeline">
+                    <div class="timeline-track"></div>
+
+                    <div class="education-item" data-aos="slide-up" data-aos-delay="100">
+                        <div class="timeline-marker"></div>
+                        <div class="education-content">
+                            <div class="degree-header">
+                                <h3>B.Sc (Hons) Computing</h3>
+                                <span class="year">Class of 2022 (1st Class)</span>
+                            </div>
+                            <h4 class="institution">
+                                <a href="https://www.gre.ac.uk/" target="_blank">University of Greenwich (UK)</a>
+                            </h4>
+                            <p>Graduated with First-Class Honours in Computing with strong focus on software development, web technologies, and project management.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-item" data-aos="slide-up" data-aos-delay="200">
+                        <div class="timeline-marker"></div>
+                        <div class="education-content">
+                            <div class="degree-header">
+                                <h3>Level 5 Diploma in Computing</h3>
+                                <span class="year">Class of 2020</span>
+                            </div>
+                            <h4 class="institution">
+                                <a href="https://www.nccedu.com/" target="_blank">NCC Education</a>
+                            </h4>
+                            <p>Completed professional diploma focused on computer systems, software engineering, and IT project methodologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-item" data-aos="slide-up" data-aos-delay="300">
+                        <div class="timeline-marker"></div>
+                        <div class="education-content">
+                            <div class="degree-header">
+                                <h3>B.A (English)</h3>
+                                <span class="year">Class of 2018</span>
+                            </div>
+                            <h4 class="institution">
+                                <a href="http://www.yude.edu.mm/public/" target="_blank">Yangon University of Distance Education</a>
+                            </h4>
+                            <p>Studied English literature and language, strengthening communication, analytical, and academic writing skills.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-item" data-aos="slide-up" data-aos-delay="400">
+                        <div class="timeline-marker"></div>
+                        <div class="education-content">
+                            <div class="degree-header">
+                                <h3>Diploma in IT</h3>
+                                <span class="year">Class of 2015</span>
+                            </div>
+                            <h4 class="institution">
+                                <a href="http://www.yude.edu.mm/public/" target="_blank">Yangon University of Distance Education</a>
+                            </h4>
+                            <p>Foundational diploma in Information Technology, covering programming, databases, and systems analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Experienc Section -->
+
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section my-3">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Browse My Creative and Technical Work</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+                        <li data-filter="*" class="filter-active">
+                            <i class="bi bi-grid-3x3"></i> All Projects
+                        </li>
+                        <li data-filter=".filter-ui">
+                            UI/UX
+                        </li>
+                        <li data-filter=".filter-laravel">
+                            Laravel
+                        </li>
+                        <li data-filter=".filter-codeigniter">
+                            CodeIgniter
+                        </li>
+                        <li data-filter=".filter-php">
+                            PHP
+                        </li>
+                    </ul>
+
+                    <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p14.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">UI/UX Design</div>
+                                            <h3 class="entry-title">KidoFlix</h3>
+                                            <div class="entry-links">
+                                                <a href="https://www.figma.com/design/rHdDkT8VdKj1np6Xp3Zsll/KidoFlix?node-id=0-1&t=bW9cV3QvB4PoSO0b-1" target="_blank">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                                <a href="portfolio-details-14.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p13.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">UI/UX Design</div>
+                                            <h3 class="entry-title">Wallora</h3>
+                                            <div class="entry-links">
+                                                <a href="https://www.figma.com/design/W7iqaiqfkOBBR9FNdSJLqM/Wallora?node-id=2-2&t=oD9RD9l1EwyKZkYJ-1" target="_blank">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                                <a href="portfolio-details-13.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p12.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">UI/UX Design</div>
+                                            <h3 class="entry-title">Hello Circus</h3>
+                                            <div class="entry-links">
+                                                <a href="https://www.hellocircus.com/" target="_blank">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                                <a href="portfolio-details-12.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p11_2.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">UI/UX Design</div>
+                                            <h3 class="entry-title">DZOJCHEN</h3>
+                                            <div class="entry-links">
+                                                <a href="https://www.dzojchen.com/home" target="_blank">
+                                                    <i class="bi bi-link-45deg"></i>
+                                                </a>
+                                                <a href="portfolio-details-11.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p10.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">UI/UX Design</div>
+                                            <h3 class="entry-title">Myanmar PlayStore</h3>
+                                            <div class="entry-links">
+                                                <a href="https://dribbble.com/shots/23808624-Myanmar-Play-Store?utm_source=Clipboard_Shot&utm_campaign=yathaw&utm_content=Myanmar%20Play%20Store&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=yathaw&utm_content=Myanmar%20Play%20Store&utm_medium=Social_Share" target="_blank">
+                                                    <i class="bi bi-dribbble"></i>
+                                                </a>
+                                                <a href="portfolio-details-10.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p9.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">Laravel Development</div>
+                                            <h3 class="entry-title">E-Learning Platform</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/smartcamp" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="portfolio-details-9.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-php">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p8.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">PHP Development</div>
+                                            <h3 class="entry-title">BrainMaster University</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/brainmasteruniversity" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="portfolio-details-8.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p7.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">Laravel Development</div>
+                                            <h3 class="entry-title">Blood Donation</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/blooddonation" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="portfolio-details-7.html">
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p6.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">Laravel Development</div>
+                                            <h3 class="entry-title">LearningLab Myanmar</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/learninglabmyanmar" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p6.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: Learning Lab Myanmar is a Laravel-powered e-learning platform designed to bring high-quality online education to Burmese learners. Inspired by platforms like Udemy, the system allows users to explore, enroll in, and engage with a variety of online courses across multiple disciplines.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p5.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">Laravel Development</div>
+                                            <h3 class="entry-title">Read Me</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/readme" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p5.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: Book Online Shopping is a full-featured e-commerce web application tailored for purchasing books online. Built with Laravel, this project streamlines the user experience from product browsing to secure checkout, offering a clean, responsive design with essential eCommerce functionalities.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p4.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">Laravel Development</div>
+                                            <h3 class="entry-title">Shop Hub</h3>
+                                            <div class="entry-links">
+                                                <a  href="https://github.com/yathaw/jetpackmall" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p4.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: JetpackMall is a robust and scalable online shopping platform developed using Laravel. Designed to deliver a seamless eCommerce experience, it supports multi-category product management, secure checkout, and user-friendly interfaces for both customers and administrators. The platform is suitable for general merchandise including electronics, clothing, gadgets, and more.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-codeigniter">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p3.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">CodeIgniter Development</div>
+                                            <h3 class="entry-title">Mini Market</h3>
+                                            <div class="entry-links">
+                                                <a href="https://github.com/yathaw/minimarket" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p3.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: MiniMarket is a lightweight yet powerful online shopping web application developed using CodeIgniter. It provides a streamlined shopping experience for users while enabling administrators to efficiently manage products, orders, and customers. Ideal for small businesses, MiniMarket combines simplicity with core eCommerce features.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-codeigniter">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p2.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">CodeIgniter Development</div>
+                                            <h3 class="entry-title">CV Builder</h3>
+                                            <div class="entry-links">
+                                                <a href="https://github.com/yathaw/cv_builder_CI" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p2.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: CV Builder is a dynamic web application that allows users to easily create, customize, and export professional CVs. Built with CodeIgniter, the system simplifies the resume-building process by guiding users through structured sections like personal info, work experience, education, and skills, ultimately generating a print-ready CV.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-codeigniter">
+                            <article class="portfolio-entry">
+                                <figure class="entry-image">
+                                    <img src="assets/img/portfolio/p1.png" class="img-fluid" alt="" loading="lazy">
+                                    <div class="entry-overlay">
+                                        <div class="overlay-content">
+                                            <div class="entry-meta">CodeIgniter Development</div>
+                                            <h3 class="entry-title">World Book</h3>
+                                            <div class="entry-links">
+                                                <a href="https://github.com/yathaw/worldbook" target="_blank">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                                <a href="assets/img/portfolio/p1.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: WorldBook is a full-featured online book shopping platform developed using CodeIgniter. The platform enables users to browse, search, and purchase a wide variety of books across genres. It also includes backend features for managing book inventory, orders, and customer interactions—ideal for small to mid-sized bookstores moving to digital.">
+                                                    <i class="bi bi-arrows-angle-expand"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div><!-- End Portfolio Item -->
+
+                    </div><!-- End Portfolio Container -->
+
+                </div>
+            </div>
+
+        </section><!-- /Portfolio Section -->
+
+        
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Let's Work Together</h2>
+                <p>Send over an email or message me on social media.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4 text-center">
+
+                    <div class="info-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="200">
+                        <i class="bi bi-geo-alt flex-shrink-0"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p> Bangkok, Thailand </p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <div>
+                            <h3>Call Me</h3>
+                            <p>+9595021819, +66928866326</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>yathawmyatnoe007@gmail.com</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
+
+                </div>
+
+            </div>
+
+        </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container copyright text-center">
+            <p> Follow Me </p>
+                <div class="social-links d-flex justify-content-center py-3">
+                    <a href="https://github.com/yathaw" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.facebook.com/yathawmyatnoe.007" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/yathawmyatnoe/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yathaw/" target="_blank"  ><i class="bi bi-linkedin"></i></a>
+                </div>
+            <div class="credits">
+                <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+      });
+    </script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
